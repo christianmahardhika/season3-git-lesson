@@ -1,0 +1,23 @@
+{
+  "name": "first-gitlab-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/christianmahardhika/first-gitlab-project.git"
+  },
+  "author": "Christian Mahardhika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/christianmahardhika/first-gitlab-project/issues"
+  },
+  "homepage": "https://gitlab.com/christianmahardhika/first-gitlab-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

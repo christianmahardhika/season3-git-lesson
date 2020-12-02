@@ -1,0 +1,9 @@
+terminal:
+  # This can be any image that has the necessary runtime environment for your project.
+  image: node:14-alpine
+  before_script:
+    - apt-get update
+    - npm install
+  script: npm run dev
+  variables:
+    NODE_ENV: "test"
